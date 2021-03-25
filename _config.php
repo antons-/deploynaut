@@ -6,3 +6,5 @@ Deprecation::notification_version('1.1.0', 'deploynaut');
 $exts = Config::inst()->get('File', 'allowed_extensions');
 $exts[] = 'sspak';
 Config::inst()->update('File', 'allowed_extensions', $exts);
+
+test push mirror
